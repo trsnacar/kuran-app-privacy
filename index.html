@@ -1,126 +1,146 @@
-📄 PRIVACY POLICY - 
-GitHub'da privacy.md dosyası oluştur ve şunu yapıştır:
-# Gizlilik Politikası - Kur'an-ı Kerim Uygulaması
-**Son Güncelleme:** 18 Mart 2026
-**Uygulama:** Kur'an-ı Kerim: Meal & Oku  
-**Geliştirici:** Trusan ACAR  
-**İletişim:** trsn.acr@gmail.com
----
-## 1. Toplanan Veriler
-Bu uygulama **hiçbir kişisel veri toplamaz**. Kullanılan teknolojiler ve veriler:
-### 1.1 Yerel Depolama (Cihazınızda Kalır)
-Aşağıdaki veriler **sadece cihazınızda** saklanır:
-- **Kaldığınız Yer**: Hangi sure ve ayette kaldığınız bilgisi
-- **Favoriler**: İşaretlediğiniz sure ve ayetler
-- **Ayarlar**: Tema tercihiniz (açık/koyu), font boyutları
-- **Arama Geçmişi**: Yaptığınız aramalar
-**Önemli:** Bu veriler hiçbir şekilde sunucularımıza gönderilmez. Uygulamayı silerseniz tüm veriler kaybolur.
-### 1.2 API İstekleri (Üçüncü Taraf)
-Uygulama, Kuran metinlerini çekmek için **Açık Kuran API** kullanır:
-- **API:** https://api.acikkuran.com
-- **Gönderilen:** Sadece sure/ayet numaraları
-- **Loglanan:** IP adresiniz (API sunucusu tarafından otomatik)
-- **Kişisel bilgi:** Hiçbir kişisel bilgi gönderilmez
-### 1.3 Firebase Hizmetleri (Opsiyonel)
-Uygulama aşağıdaki Firebase hizmetlerini kullanır:
-#### Firebase Analytics
-- **Ne toplar:** Anonim kullanım istatistikleri
-- **Örnek:** Hangi sureler daha çok okunuyor, ortalama kullanım süresi
-- **Kişisel veri:** Yok (IP adresi anonimleştirilir)
-- **Kapatma:** Uygulama ayarlarından devre dışı bırakılabilir
-#### Firebase Crashlytics
-- **Ne toplar:** Hata raporları
-- **Örnek:** Uygulama çöktüğünde hangi ekrandaydınız
-- **Kişisel veri:** Yok (cihaz modeli, Android versiyonu)
-#### Firebase Authentication (Cloud Backup Kullanıyorsanız)
-- **Ne toplar:** Email adresiniz (giriş için)
-- **Ne saklar:** Kaldığınız yer, favoriler, ayarlar
-- **Nerede:** Google Cloud sunucuları (Avrupa)
-- **Kullanım:** Sadece sizin erişiminiz için
----
-## 2. Veri Kullanımı
-Toplanan veriler şu amaçlarla kullanılır:
-- ✅ Uygulama işlevselliği (okuma, favorileme, ayarlar)
-- ✅ Kullanıcı deneyimi iyileştirme (analytics)
-- ✅ Hata düzeltme (crashlytics)
-- ✅ Cloud backup (sadece giriş yapmış kullanıcılar için)
-**YAPILMAZ:**
-- ❌ Üçüncü şahıslarla satılmaz veya paylaşılmaz
-- ❌ Reklam amaçlı kullanılmaz
-- ❌ Ticari amaçla kullanılmaz
-- ❌ Profil oluşturmada kullanılmaz
----
-## 3. Veri Saklama
-### Yerel Veriler
-- **Nerede:** Cihazınızın dahili hafızası
-- **Ne kadar:** Uygulamayı sildiğiniz ana kadar
-- **Yedekleme:** Manuel (Google Drive vs. ile)
-### Cloud Veriler (Sadece Giriş Yapmış Kullanıcılar)
-- **Nerede:** Google Cloud Firestore (Avrupa sunucuları)
-- **Ne kadar:** Hesabınız silinene kadar
-- **Silme:** Uygulama içinden "Hesabımı Sil" ile
----
-## 4. Çocuk Gizliliği
-Bu uygulama **her yaşa uygundur**:
-- ✅ 13 yaş altı çocuklardan **veri toplamaz**
-- ✅ Ebeveyn onayı **gerekmez**
-- ✅ Yaş doğrulaması **yoktur**
-- ✅ Çocuklara yönelik içerik **vardır** (Kuran eğitimi)
-**Content Rating:** PEGI 3 / Everyone (Her Yaş)
----
-## 5. Veri Güvenliği
-Uygulamamız veri güvenliğini ciddiye alır:
-- 🔒 **Yerel depolama:** Android sandbox (uygulama izole)
-- 🔒 **API:** HTTPS şifreli bağlantı
-- 🔒 **Cloud:** Firebase güvenlik kuralları
-- 🔒 **Authentication:** Email doğrulama (opsiyonel)
-**Sınırlamalar:**
-- ⚠️ Cihaz çalıntı/kayıp olursa verilere erişilebilir
-- ⚠️ Root'lu cihazlarda güvenlik riski vardır
-- ⚠️ Yedekleme şifrelenmemiştir
----
-## 6. Üçüncü Taraf Hizmetler
-Uygulama aşağıdaki üçüncü taraf hizmetlerini kullanır:
-| Hizmet | Sağlayıcı | Amaç | Privacy Policy |
-|--------|-----------|------|----------------|
-| Açık Kuran API | Diyanet İşleri Başkanlığı | Kuran metinleri | [Link](https://github.com/aksalih/acikkuran-api) |
-| Firebase Analytics | Google | İstatistikler | [Link](https://policies.google.com/privacy) |
-| Firebase Crashlytics | Google | Hata raporları | [Link](https://policies.google.com/privacy) |
-| Firebase Auth | Google | Kullanıcı girişi | [Link](https://policies.google.com/privacy) |
-| Google Play Services | Google | In-App Review | [Link](https://policies.google.com/privacy) |
----
-## 7. Kullanıcı Haklarınız
-KVKK ve GDPR kapsamında haklarınız:
-1. **Bilgi alma hakkı:** Hangi verileriniz saklanıyor?
-2. **Düzeltme hakkı:** Yanlış verileri düzelttirebilirsiniz
-3. **Silme hakkı:** "Hesabımı Sil" ile verilerinizi silebilirsiniz
-4. **İtiraz hakkı:** Veri işlemeye itiraz edebilirsiniz
-5. **Portabilitasyon:** Verilerinizi alıp başka yere götürebilirsiniz
-**Nasıl talep edilir?**
-- Email: [Email adresiniz]
-- Konu: "KVKK Veri Talebi"
-- Yanıt süresi: 30 gün
----
-## 8. Değişiklikler
-Bu gizlilik politikası zaman zaman güncellenebilir:
-- 📝 **Önemli değişiklikler:** Uygulama içi bildirim
-- 📝 **Küçük değişiklikler:** Sadece politika sayfasında
-- 📝 **Geçmiş versiyonlar:** GitHub'da saklanır
-**Son güncelleme:** 18 Mart 2026
----
-## 9. İletişim
-Sorularınız için:
-- 📧 **Email:** trsn.acr@gmail.com
-- 🌐 **Website:**- 
-- 📱 **GitHub:** https://github.com/trsnacar
-**Adres: Türkiye
-[Adresiniz]
----
-## 10. Play Store Disclosure
-Bu uygulama Google'ın API Hizmet Gereksinimlerine uygundur:
-- ✅ Kullanıcı verileri güvenli şekilde saklanır
-- ✅ Gizlilik politikası mevcuttur
-- ✅ Çocuk gizliliğine uyumludur
-- ✅ Firebase kullanımı dokümante edilmiştir
----
-**Yasal Uyarı:** Bu gizlilik politikası bilgilendirme amaçlıdır ve yasal tavsiye değildir.
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizlilik Politikası - Kur'an-ı Kerim Uygulaması</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.7;
+      color: #222;
+      background: #fff;
+    }
+    h1, h2, h3 {
+      color: #111;
+    }
+    .meta {
+      color: #666;
+      margin-bottom: 24px;
+    }
+    ul {
+      padding-left: 22px;
+    }
+    a {
+      color: #0a58ca;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      margin: 28px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gizlilik Politikası – Kur’an-ı Kerim Uygulaması</h1>
+  <p class="meta">
+    <strong>Son Güncelleme:</strong> 18 Mart 2026<br>
+    <strong>Uygulama:</strong> Kur'an-ı Kerim: Meal & Oku<br>
+    <strong>Geliştirici:</strong> Trusan ACAR<br>
+    <strong>İletişim:</strong> trsn.acr@gmail.com
+  </p>
+
+  <hr>
+
+  <h2>1. Toplanan Veriler</h2>
+  <p>Bu uygulama mümkün olduğunca cihaz-içi çalışacak şekilde tasarlanmıştır. Temel kullanımda kişisel veri toplamaz.</p>
+
+  <h3>1.1 Yerel Depolama (Cihazınızda Kalır)</h3>
+  <ul>
+    <li>Kaldığınız yer</li>
+    <li>Hangi sure ve ayette kaldığınız bilgisi</li>
+    <li>Favori sure/ayetler</li>
+    <li>Ayarlar (tema, yazı boyutu vb.)</li>
+    <li>Arama geçmişi</li>
+  </ul>
+  <p>Bu veriler cihazınızda saklanır ve uygulama deneyimini geliştirmek için kullanılır.</p>
+
+  <h3>1.2 API İstekleri</h3>
+  <p>Uygulama, Kur’an metinlerini çekmek için Açık Kuran API kullanır:</p>
+  <p><a href="https://api.acikkuran.com" target="_blank">https://api.acikkuran.com</a></p>
+  <p>Gönderilen veri yalnızca istenen sure/ayet numarası gibi teknik isteklerden ibarettir.</p>
+
+  <h3>1.3 Firebase Hizmetleri (Opsiyonel)</h3>
+  <p>Uygulamada aşağıdaki Firebase servisleri opsiyonel olarak kullanılabilir:</p>
+  <ul>
+    <li>Firebase Analytics: anonim kullanım istatistikleri</li>
+    <li>Firebase Crashlytics: hata raporları</li>
+    <li>Firebase Authentication: giriş yapan kullanıcılar için kimlik doğrulama</li>
+  </ul>
+
+  <h2>2. Veri Kullanımı</h2>
+  <p>Toplanan veriler şu amaçlarla kullanılabilir:</p>
+  <ul>
+    <li>Uygulama işlevselliğini sağlamak</li>
+    <li>Kullanıcı deneyimini iyileştirmek</li>
+    <li>Hata düzeltmek</li>
+    <li>Bulut yedekleme sağlamak (yalnızca giriş yapan kullanıcılar için)</li>
+  </ul>
+
+  <p>Veriler:</p>
+  <ul>
+    <li>Satılmaz</li>
+    <li>Ticari amaçla paylaşılmaz</li>
+    <li>Reklam amacıyla kullanılmaz</li>
+    <li>Profil oluşturmak için kullanılmaz</li>
+  </ul>
+
+  <h2>3. Veri Saklama</h2>
+  <h3>Yerel Veriler</h3>
+  <ul>
+    <li><strong>Nerede:</strong> Cihazınızın dahili hafızası</li>
+    <li><strong>Ne kadar:</strong> Uygulamayı silene kadar</li>
+    <li><strong>Yedekleme:</strong> Manuel olabilir</li>
+  </ul>
+
+  <h3>Cloud Veriler (Sadece Giriş Yapmış Kullanıcılar)</h3>
+  <ul>
+    <li><strong>Nerede:</strong> Google Cloud / Firebase</li>
+    <li><strong>Ne kadar:</strong> Hesabınızı silene kadar</li>
+  </ul>
+
+  <h2>4. Çocuk Gizliliği</h2>
+  <p>Bu uygulama 13 yaş altı çocuklara doğrudan veri toplama amacıyla yönelik değildir. Gerekli durumlarda ebeveyn onayı aranabilir.</p>
+
+  <h2>5. Veri Güvenliği</h2>
+  <p>Veri güvenliği için makul teknik önlemler alınır. Ancak hiçbir sistem yüzde 100 güvenli değildir.</p>
+  <ul>
+    <li>Yerel depolama Android sandbox içinde çalışır</li>
+    <li>API istekleri HTTPS ile yapılır</li>
+    <li>Bulut tarafında Firebase güvenlik kuralları uygulanır</li>
+  </ul>
+
+  <h2>6. Üçüncü Taraf Hizmetler</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+    <li><a href="https://api.acikkuran.com" target="_blank">Açık Kuran API</a></li>
+  </ul>
+
+  <h2>7. Kullanıcı Hakları</h2>
+  <p>KVKK ve ilgili düzenlemeler kapsamında aşağıdaki haklara sahip olabilirsiniz:</p>
+  <ul>
+    <li>Hangi verilerin işlendiğini öğrenme</li>
+    <li>Düzeltme talep etme</li>
+    <li>Silme talep etme</li>
+    <li>İtiraz etme</li>
+    <li>Veri taşınabilirliği talep etme</li>
+  </ul>
+
+  <h2>8. Değişiklikler</h2>
+  <p>Bu gizlilik politikası zaman zaman güncellenebilir. Güncel sürüm bu sayfada yayınlanır.</p>
+
+  <h2>9. İletişim</h2>
+  <p>
+    Sorularınız için:<br>
+    <strong>E-posta:</strong> trsn.acr@gmail.com
+  </p>
+
+  <h2>10. Play Store Uyumluluğu</h2>
+  <p>Bu gizlilik politikası, uygulamanın veri işleme yaklaşımını açıklamak amacıyla hazırlanmıştır.</p>
+</body>
+</html>
