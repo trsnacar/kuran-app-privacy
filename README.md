@@ -1,6 +1,6 @@
 # Kur'an App Privacy Policy
 
-This repository contains the public privacy policy page for the **Kur'an-ı Kerim: Meal & Oku** mobile application.
+This repository contains the public privacy policy page for the **Kur'an-ı Kerim** mobile application.
 
 ## Live Page
 
@@ -13,9 +13,9 @@ This repository is used to publish the application's privacy policy through **Gi
 
 ## Application Information
 
-- **App Name:** Kur'an-ı Kerim: Meal & Oku
-- **Developer:** Trusan ACAR
-- **Contact:** trsn.acr@gmail.com
+- **App Name:** Kur'an-ı Kerim
+- **Developer:** Appazar Dev
+- **Contact:** info@appazar.com
 
 ## Repository Structure
 
